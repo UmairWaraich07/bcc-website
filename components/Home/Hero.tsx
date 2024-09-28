@@ -5,7 +5,7 @@ import { FlipWords } from "../ui/flip-words";
 const HeroSection = () => {
   const words = [
     "Connect with Influencers",
-    "Leverage AI Power",
+    "Leverage Business with AI",
     "Network with Businesses",
   ];
   return (
