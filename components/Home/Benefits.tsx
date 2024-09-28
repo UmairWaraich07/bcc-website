@@ -17,7 +17,7 @@ const Benefits = () => {
             className="flex size-full flex-col justify-between gap-5 rounded-md bg-[#f2f2f2] "
           >
             {/* benefit content */}
-            <div className="px-3 py-5">
+            <div className="bg-grid bg-cover bg-center bg-no-repeat px-3 py-5 ">
               <Image
                 src={benefit.icon}
                 alt={benefit.heading}

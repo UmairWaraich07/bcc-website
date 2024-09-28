@@ -49,6 +49,7 @@ const config: Config = {
       },
       backgroundImage: {
         cta: "url('/assets/network-hands.png')",
+        grid: "url('/assets/grid.png')",
       },
       borderRadius: {
         lg: "var(--radius)",

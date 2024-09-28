@@ -3,6 +3,7 @@ import Logo from "./Logo";
 import { Button } from "./ui/button";
 import { NavigationLinks } from "@/constants";
 import Link from "next/link";
+import MobileNav from "./MobileNav";
 
 const Navbar = () => {
   return (
@@ -10,21 +11,37 @@ const Navbar = () => {
       <div className="mx-auto flex w-full max-w-[1440px] items-center  justify-between  gap-8 p-5 sm:px-16 ">
         <Logo />
         <nav className="flex items-center justify-center gap-8 text-base font-semibold max-lg:hidden">
-          {NavigationLinks.map((item) => (
-            <Link
-              key={item.link}
-              href={item.link}
-              className="hover:text-primary"
-            >
-              {item.label}
-            </Link>
-          ))}
+          {NavigationLinks.map((item) => {
+            if (item.label === "Influencers") {
+              return (
+                <span
+                  key={item.link}
+                  className="cursor-not-allowed text-gray-400"
+                  title="Coming soon"
+                >
+                  {item.label}
+                </span>
+              );
+            }
+            return (
+              <Link
+                key={item.link}
+                href={item.link}
+                className="hover:text-primary"
+              >
+                {item.label}
+              </Link>
+            );
+          })}
         </nav>
         <Link href="/login" className="max-lg:hidden">
           <Button className="border-2 border-body bg-background px-8 py-3 font-bold text-body hover:border-heading hover:bg-heading hover:text-background">
             LOGIN
           </Button>
         </Link>
+
+        {/* Mobile Nav */}
+        <MobileNav />
       </div>
     </header>
   );
