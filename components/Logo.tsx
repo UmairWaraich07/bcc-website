@@ -23,7 +23,9 @@ const Logo = ({
         height={height}
         className="object-cover"
       />
-      <span className={`font-irish text-heading ${logoTextSize}`}>BCC</span>
+      <span className={` font-extrabold text-heading ${logoTextSize}`}>
+        BCC
+      </span>
     </Link>
   );
 };
