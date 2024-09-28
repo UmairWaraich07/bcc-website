@@ -4,6 +4,7 @@ import "./globals.css";
 import React from "react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import { Toaster } from "@/components/ui/toaster";
 
 const raleway = Raleway({
   subsets: ["latin"],
@@ -34,7 +35,11 @@ export default function RootLayout({
         className={`${raleway.variable} ${irishGrover.variable} antialiased`}
       >
         <Navbar />
-        <main>{children}</main>
+        <main>
+          {children}
+
+          <Toaster />
+        </main>
         <Footer />
       </body>
     </html>

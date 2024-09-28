@@ -13,7 +13,7 @@ export const NavigationLinks = [
   },
   {
     label: "Reach Us",
-    link: "/reach-us",
+    link: "/contact",
   },
 ];
 
@@ -128,5 +128,55 @@ export const Faqs = [
     question: "Can I get one-on-one business consultations?",
     answer:
       "The future belongs to the informed. We will provide you latest trends in your industry that are blueprints for domination. Staying informed will leave your competition in the rearview.",
+  },
+];
+
+export const PricingDetails = [
+  {
+    price: "970",
+    label: "Basic membership",
+    description:
+      "Kickstart your business with essential benefits and growth opportunities.",
+    features: [
+      "All features and premium support",
+      "Brand Exposure to Members and Influencers",
+      "Access to a Strong Business Network",
+      "All features and premium support",
+      "Guest Invitation to Annual BCC Events",
+      "Basic Limited Access to ProGini AI Tools",
+      "Basic chat and email support",
+    ],
+  },
+  {
+    price: "1490",
+    label: "Premium Membership",
+    description:
+      "Expand your brand's presence across all social media platforms",
+    features: [
+      "All Basic plan features",
+      "Everything in Basic Membership +",
+      "12 Social Media Promotions",
+      "Exclusive Networking Opportunities",
+      "Access to Industry News & Trends",
+      "Exclusive Resources & Training Workshops",
+      "Unlimited Use of ProGini AI Tools",
+      "Partnerships & Collaborations",
+      "Priority chat and email support",
+    ],
+  },
+  {
+    price: "2950",
+    label: "Elite Membership",
+    description:
+      "Includes sponsorship of a prestigious national influencer contestant!",
+    features: [
+      "All Premium plan features",
+      "Everthing in Premium Membership +",
+      "Influencer Representing your Brand at Events",
+      "Brand Logo Placement in Social Media Feeds",
+      "Exclusive Invites to the Miss Meta Annual Event",
+      "Participation in Innovative Ideas Discussions",
+      "Personalized+priority service",
+    ],
   },
 ];
