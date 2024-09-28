@@ -3,7 +3,7 @@ import { InfiniteMovingCards } from "../ui/infinite-moving-cards";
 
 const ModernGrowth = () => {
   return (
-    <section className="mx-auto py-6 sm:py-16 ">
+    <section className="mx-auto py-10 sm:py-16 ">
       <div className="mb-16 px-5 text-center sm:px-16  ">
         <h2 className="h2-bold">Modern Growth Ecosystem.</h2>
         <p className="mt-6 text-2xl">

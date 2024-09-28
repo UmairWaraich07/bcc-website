@@ -87,47 +87,46 @@ export const Faqs = [
   {
     question: "Why should I join the Blogger's Chamber of Commerce (BCC)?",
     answer:
-      "The future belongs to the informed. We will provide you latest trends in your industry that are blueprints for domination. Staying informed will leave your competition in the rearview.",
+      "Look, BCC is for winners who want to dominate online. We've got the connections, the tools, and we know-how to take you to the top. If you're not here, you're falling behind. Simple as that. So, You must act fast and you should join.",
   },
   {
     question: "Who can join the Blogger's Chamber of Commerce (BCC)?",
     answer:
-      "The future belongs to the informed. We will provide you latest trends in your industry that are blueprints for domination. Staying informed will leave your competition in the rearview.",
+      "If you've got an online business or you're an influencer looking to level up, you're in. We're not about gatekeeping – we're about gathering go-getters who are ready to dominate the digital space.",
   },
   {
     question: "How much does membership cost?",
     answer:
-      "The future belongs to the informed. We will provide you latest trends in your industry that are blueprints for domination. Staying informed will leave your competition in the rearview.",
+      "We've got plans starting from just $970/year. But here's the kicker – our members say it pays for itself in no time. Think of it as an investment in your empire, not an expense.",
   },
   {
     question: "How do I apply for membership?",
-    answer:
-      "The future belongs to the informed. We will provide you latest trends in your industry that are blueprints for domination. Staying informed will leave your competition in the rearview.",
+    answer: `Easy peasy. Click "Join the Chamber" on our homepage. Choose a membership plan, fill out your details, and you're in.`,
   },
   {
     question: "What kind of AI tools do you provide?",
     answer:
-      "The future belongs to the informed. We will provide you latest trends in your industry that are blueprints for domination. Staying informed will leave your competition in the rearview.",
+      "We've the whole shebang – content creation, smart websites, logo making, sales pages, ads creation, PDP, 5TB cloud storage, CRM, you name it. It's the secret weapon that'll save you time and blow your competition out of the water.",
   },
   {
     question: "How do you find influencers for my business?",
     answer:
-      "The future belongs to the informed. We will provide you latest trends in your industry that are blueprints for domination. Staying informed will leave your competition in the rearview.",
+      "We don't just find influencers; we match you with the perfect ones. We have categorized influencer lists. Members can access and connect with influencers based on their niche or category.",
   },
   {
     question: "How often do you host networking events?",
     answer:
-      "The future belongs to the informed. We will provide you latest trends in your industry that are blueprints for domination. Staying informed will leave your competition in the rearview.",
+      "We're all about keeping the energy high. We host virtual meetups weekly and big in-person bashes annually. We also invite our members as a guest on Special events.",
   },
   {
     question: "What kind of businesses are currently members?",
     answer:
-      "The future belongs to the informed. We will provide you latest trends in your industry that are blueprints for domination. Staying informed will leave your competition in the rearview.",
+      "We've got a real mixed bag – from solo Instagram influencers to multi-million dollar e-commerce brands. If they're killing it online or want to, they're here.",
   },
   {
     question: "Can I get one-on-one business consultations?",
     answer:
-      "The future belongs to the informed. We will provide you latest trends in your industry that are blueprints for domination. Staying informed will leave your competition in the rearview.",
+      "Yes, we provide one-on-one consultations with our experts to help you succeed. It's like having a business guru on speed dial.",
   },
 ];
 
@@ -138,7 +137,6 @@ export const PricingDetails = [
     description:
       "Kickstart your business with essential benefits and growth opportunities.",
     features: [
-      "All features and premium support",
       "Brand Exposure to Members and Influencers",
       "Access to a Strong Business Network",
       "All features and premium support",
@@ -153,7 +151,6 @@ export const PricingDetails = [
     description:
       "Expand your brand's presence across all social media platforms",
     features: [
-      "All Basic plan features",
       "Everything in Basic Membership +",
       "12 Social Media Promotions",
       "Exclusive Networking Opportunities",
@@ -170,7 +167,6 @@ export const PricingDetails = [
     description:
       "Includes sponsorship of a prestigious national influencer contestant!",
     features: [
-      "All Premium plan features",
       "Everthing in Premium Membership +",
       "Influencer Representing your Brand at Events",
       "Brand Logo Placement in Social Media Feeds",

@@ -7,9 +7,9 @@ import MobileNav from "./MobileNav";
 
 const Navbar = () => {
   return (
-    <header className="sticky top-0 z-50 w-full   border-b border-body/10 bg-white/70 backdrop-blur-md ">
+    <header className="sticky top-0 z-50 w-full   border-b border-body/10 bg-white ">
       <div className="mx-auto flex w-full max-w-[1440px] items-center  justify-between  gap-8 p-5 sm:px-16 ">
-        <Logo />
+        <Logo width={55} height={58} />
         <nav className="flex items-center justify-center gap-8 text-base font-semibold max-lg:hidden">
           {NavigationLinks.map((item) => {
             if (item.label === "Influencers") {
@@ -34,8 +34,8 @@ const Navbar = () => {
             );
           })}
         </nav>
-        <Link href="/login" className="max-lg:hidden">
-          <Button className="border-2 border-body bg-background px-8 py-3 font-bold text-body hover:border-heading hover:bg-heading hover:text-background">
+        <Link href="/" className="max-lg:hidden">
+          <Button className="border-2 border-heading bg-background px-8 py-3 font-bold text-heading hover:border-heading hover:bg-heading hover:text-background">
             LOGIN
           </Button>
         </Link>

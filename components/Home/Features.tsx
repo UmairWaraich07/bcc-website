@@ -5,7 +5,7 @@ import { MoveRight } from "lucide-react";
 
 const Features = () => {
   return (
-    <section className="py-6 sm:py-16 ">
+    <section className="py-10 sm:py-16 ">
       <div className=" text-center  lg:mb-12 ">
         <h2 className="h2-bold">
           Our Chamber + Modern Marketing = Big <br className="max-lg:hidden" />{" "}
@@ -21,26 +21,26 @@ const Features = () => {
       </div>
 
       {/* Features */}
-      <div className="py-6 max-lg:space-y-10 sm:py-16">
+      <div className="py-6 sm:py-16">
         {/* Feature 1 */}
-        <div className="flex w-full flex-col-reverse items-center justify-center gap-6 py-6 lg:flex-row lg:gap-12 lg:py-16">
+        <div className="flex w-full flex-col items-center justify-center gap-6 py-10 lg:flex-row lg:gap-12 lg:py-16">
           {/* Feature 1 Content */}
           <div className="w-full flex-1 lg:max-w-screen-sm  ">
             <h2 className="h2-bold">
               Find and Connect with Influencers in one click
             </h2>
 
-            <p className="mt-8 text-base font-bold text-heading sm:text-xl  ">
+            <p className="mt-8 text-lg font-bold text-heading sm:text-xl  ">
               Influencers are your Power Players, and every collaboration is a
               strategic win.{" "}
             </p>
-            <p className="mt-6 text-base sm:text-xl">
+            <p className="mt-6 text-lg sm:text-xl">
               Find and connect with game-changing influencers based on category,
               and your brand will no longer struggle with promotions, however
               your competitors will.
             </p>
 
-            <p className="mt-6 text-base sm:text-xl">
+            <p className="mt-6 text-lg sm:text-xl">
               This is your smoothest pathway to reaching the highest echelon of
               business success.
             </p>
@@ -58,7 +58,7 @@ const Features = () => {
           </div>
         </div>
         {/* Feature 2 */}
-        <div className="flex w-full flex-col items-center justify-center gap-6 py-6 lg:flex-row lg:gap-12 lg:py-16">
+        <div className="flex w-full flex-col-reverse items-center justify-center gap-6 py-10 lg:flex-row lg:gap-12 lg:py-16">
           {/* Feature 2 Image */}
           <div className="flex flex-1 items-center justify-center">
             <Image
@@ -75,18 +75,18 @@ const Features = () => {
               Unlimited Use of AI tools Outperforming Freelancers
             </h2>
 
-            <p className="mt-8 text-base font-bold text-heading sm:text-xl  ">
+            <p className="mt-8 text-lg font-bold text-heading sm:text-xl  ">
               Imagine creating a video with just one click in seconds, a sales
               page built in a minute, and no need for expensive freelancers the
               next hour.{" "}
             </p>
-            <p className="mt-6 text-base sm:text-xl">
+            <p className="mt-6 text-lg sm:text-xl">
               Unlike other outdated chambers, inside Blogger’s Chamber Of
               Commerce, you’ll gain access to ProGini AI—a modern AI tool that
               provides all the business marketing resources you need.
             </p>
 
-            <p className="mt-6 text-base sm:text-xl">
+            <p className="mt-6 text-lg sm:text-xl">
               Whether you&apos;re creating images, videos, sales pages, ads, or
               smart websites…,{" "}
               <span className="font-bold text-heading">
@@ -100,29 +100,29 @@ const Features = () => {
         </div>
 
         {/* Feature 3 */}
-        <div className="flex w-full flex-col-reverse items-center justify-center gap-6 py-6 lg:flex-row lg:gap-12 lg:py-16">
+        <div className="flex w-full flex-col items-center justify-center gap-6 py-10 lg:flex-row lg:gap-12 lg:py-16">
           {/* Feature 3 Content */}
           <div className="w-full flex-1 lg:max-w-screen-sm  ">
             <h2 className="h2-bold">
               No Business Owner in History became Exceptional Alone
             </h2>
 
-            <p className="mt-8 text-base sm:text-xl">
+            <p className="mt-8 text-lg sm:text-xl">
               “Your Network Is Your Net Worth.” -{" "}
               <span className="italic">Porter Gale</span>
             </p>
 
-            <p className="mt-6 text-base font-bold text-heading sm:text-xl  ">
+            <p className="mt-6 text-lg font-bold text-heading sm:text-xl  ">
               We live in a modern age. Our connections are worth more than
               skyscrapers and network hold more value than centuries.{" "}
             </p>
-            <p className="mt-6 text-base sm:text-xl">
+            <p className="mt-6 text-lg sm:text-xl">
               Inside the Blogger’s Chamber of Commerce, you’ll network with
               business owners worth more than ages—those looking to build their
               business empires like you.
             </p>
 
-            <p className="mt-6 text-base sm:text-xl">
+            <p className="mt-6 text-lg sm:text-xl">
               There is no other chamber on the earth with business owners of
               this caliber.
             </p>
@@ -142,10 +142,10 @@ const Features = () => {
       </div>
 
       {/* CTA */}
-      <div className="mt-6 flex w-full items-center justify-center ">
+      <div className="flex w-full items-center justify-center sm:mt-6 ">
         <Button
           className="flex items-center justify-center gap-2 rounded-none border-x-0 border-b-[3px] border-t-0 border-primary bg-[#F2F2F2]
-         text-lg sm:text-xl font-extrabold text-primary transition-all duration-200 hover:gap-4 hover:bg-[#f2f2f2] "
+         text-lg font-extrabold text-primary transition-all duration-200 hover:gap-4 hover:bg-[#f2f2f2] sm:text-xl "
         >
           JOIN THE CHAMBER <MoveRight color="#1179FC" />
         </Button>

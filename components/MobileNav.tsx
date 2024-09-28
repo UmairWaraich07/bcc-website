@@ -40,7 +40,7 @@ const MobileNav = () => {
               </SheetClose>
 
               <div className="flex w-full flex-col gap-4">
-                <Link href="/login">
+                <Link href="/">
                   <Button
                     variant="outline"
                     className="w-full text-lg font-extrabold uppercase "
@@ -48,7 +48,7 @@ const MobileNav = () => {
                     LOGIN
                   </Button>
                 </Link>
-                <Link href="/login">
+                <Link href="/">
                   <Button className="w-full text-lg font-extrabold uppercase">
                     Join the chamber
                   </Button>

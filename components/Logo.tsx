@@ -6,15 +6,13 @@ import Link from "next/link";
 type Props = {
   width?: number;
   height?: number;
-  logoTextColor?: string;
   logoTextSize?: string;
 };
 
 const Logo = ({
-  width = 42,
-  height = 43,
-  logoTextColor = "text-body",
-  logoTextSize = "text-2xl",
+  width = 48,
+  height = 48,
+  logoTextSize = "text-3xl",
 }: Props) => {
   return (
     <Link href="/" className="flex items-center justify-center">
@@ -25,7 +23,7 @@ const Logo = ({
         height={height}
         className="object-cover"
       />
-      <span className={`font-irish ${logoTextColor} ${logoTextSize}`}>BCC</span>
+      <span className={`font-irish text-heading ${logoTextSize}`}>BCC</span>
     </Link>
   );
 };

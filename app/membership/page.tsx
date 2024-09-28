@@ -22,7 +22,7 @@ const Membership = () => {
         {PricingDetails.map((plan) => (
           <div
             key={plan.price}
-            className={`relative mx-auto max-w-[450px] rounded-xl border border-body/20 p-8 shadow-md `}
+            className={`relative mx-auto  ${plan.label === "Elite Membership" && "max-sm:-mt-10"} max-w-[450px] rounded-xl ${plan.label === "Premium Membership" && "bg-primary/5"} border border-body/20 p-8 shadow-md `}
           >
             {/* Most Popular */}
             {plan.label === "Premium Membership" && (
@@ -30,7 +30,7 @@ const Membership = () => {
                 <span className="font-semibold">Most popular plan</span>
               </div>
             )}
-            <div className="px-4 text-center">
+            <div className="text-center md:px-4">
               <div className="text-5xl font-semibold text-heading">
                 ${plan.price}
                 <span className="text-xl">/yr</span>
@@ -38,7 +38,9 @@ const Membership = () => {
               <h4 className=" mt-6 text-xl font-bold text-heading">
                 {plan.label}
               </h4>
-              <p className=" mt-1 font-medium">{plan.description}</p>
+              <p className=" mt-1 font-medium">
+                &quot;{plan.description}&quot;
+              </p>
             </div>
             <Link href="join">
               <Button className="mt-8 w-full text-lg font-extrabold uppercase sm:text-xl">
@@ -62,7 +64,7 @@ const Membership = () => {
                   />
                   {/* </div> */}
 
-                  <p>{feature}</p>
+                  <p className="font-medium">{feature}</p>
                 </li>
               ))}
             </ul>

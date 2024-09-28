@@ -86,7 +86,7 @@ export const InfiniteMovingCards = ({
       >
         {items.map((imageUrl, idx) => (
           <li
-            className="relative h-[300px] w-full max-w-[550px] shrink-0 overflow-hidden max-sm:h-[200px] max-sm:w-[300px]"
+            className="relative h-[300px] w-full max-w-[550px] shrink-0 overflow-hidden"
             key={`${imageUrl}-${idx}`}
           >
             <Image
@@ -94,7 +94,7 @@ export const InfiniteMovingCards = ({
               alt={`Scrolling image ${idx + 1}`}
               width={600}
               height={400}
-              className="size-full transition-transform duration-300 hover:scale-105"
+              className="size-full transition-transform duration-300 "
             />
           </li>
         ))}

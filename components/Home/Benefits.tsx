@@ -4,7 +4,7 @@ import React from "react";
 
 const Benefits = () => {
   return (
-    <section className="py-6 sm:py-16 ">
+    <section className="py-10 sm:py-16 ">
       <div className=" mb-12  text-center ">
         <h2 className="h2-bold">All Exclusive Benefits in One Room.</h2>
       </div>

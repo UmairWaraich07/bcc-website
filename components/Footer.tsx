@@ -8,12 +8,7 @@ const Footer = () => {
     <footer className="mt-16 border-t border-body/20">
       <div className="mx-auto w-full max-w-[1440px]  px-5 py-6 sm:p-16 ">
         <div className="flex w-full flex-wrap items-start justify-start gap-8 lg:gap-16">
-          <Logo
-            width={65}
-            height={68}
-            logoTextColor="text-heading"
-            logoTextSize="text-4xl"
-          />
+          <Logo width={65} height={68} logoTextSize="text-4xl" />
           {/* Resources */}
           <div>
             <h4 className="mb-6 font-semibold text-heading">Resources</h4>
@@ -73,7 +68,7 @@ const Footer = () => {
             <h4 className="mb-6 font-semibold text-heading">Support</h4>
             <div className="flex flex-col items-start justify-start">
               <p className="text-base">example@bloggerschamberofcommerce.com</p>
-              <Link href="login" className="mt-5">
+              <Link href="" className="mt-5">
                 <Button className="border-2 border-body bg-background px-8 py-3 font-bold text-body hover:border-heading hover:bg-heading hover:text-background">
                   LOGIN
                 </Button>
